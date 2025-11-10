@@ -30,3 +30,9 @@ A minimal Sales Insight Agent that accepts natural language sales questions, fet
    ```bash
    python app.py "Your Query"
    ```
+
+## Screenshots
+
+<img width="1220" height="330" alt="image" src="https://github.com/user-attachments/assets/b5cf4e7c-350e-4b46-b65b-dc57becb6c77" />
+
+
