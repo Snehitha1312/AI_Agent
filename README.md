@@ -24,3 +24,9 @@ A minimal Sales Insight Agent that accepts natural language sales questions, fet
    ```bash
    pip install -r requirements.txt
    ```
+## Setup
+
+1. To run the application
+   ```bash
+   python app.py "Your Query"
+   ```
