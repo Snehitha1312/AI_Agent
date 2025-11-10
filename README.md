@@ -1,0 +1,26 @@
+# Sales Insight Agent
+
+A minimal Sales Insight Agent that accepts natural language sales questions, fetches order data from the sample Sales API, analyzes it, and answers using an LLM (OpenAI by default). Includes a CLI and optional FastAPI web endpoint.
+
+## Features
+
+- CLI for natural-language queries (Typer)
+- Sales API integration with caching (SQLite)
+- Date parsing for relative phrases: "yesterday", "last week", "this month"
+- Local aggregations: best-selling items, sales trend by day
+- LLM fallback for freeform questions (OpenAI example)
+- Basic tests (pytest)
+
+## Requirements
+
+- Python 3.10+
+- pip install -r requirements.txt
+
+## Setup
+
+1. Clone repo.
+2. Copy `.env.example` to `.env` and fill `OPENAI_API_KEY`.
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
